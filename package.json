@@ -1,0 +1,13 @@
+{
+  "name": "movietrackerapp",
+  "version": "1.0.0",
+  "description": "A simple web application built with Node.js and Express.js that allows users to track movies they want to watch, are currently watching, or have already watched. This project was created as part of a Node and Express assessment to demonstrate RESTful API design, middleware usage, and dynamic view rendering with EJS.",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
