@@ -1,49 +1,123 @@
 [
-  { "title": "Inception", "status": "Watched" },
-  { "title": "Interstellar", "status": "Want to Watch" },
-  { "title": "The Matrix", "status": "Watched" },
-  { "title": "The Social Network", "status": "Watched" },
-  { "title": "Everything Everywhere All at Once", "status": "Want to Watch" },
-  { "title": "Parasite", "status": "Watched" },
-  { "title": "The Grand Budapest Hotel", "status": "Want to Watch" },
-  { "title": "Whiplash", "status": "Watched" },
-  { "title": "Arrival", "status": "Want to Watch" },
-  { "title": "The Dark Knight", "status": "Watched" },
-  { "title": "Her", "status": "Want to Watch" },
-  { "title": "Knives Out", "status": "Watched" },
-  { "title": "WALL·E", "status": "Watched" },
-  { "title": "Big Hero 6", "status": "Want to Watch" },
-  { "title": "The Mitchells vs. The Machines", "status": "Watched" },
-  { "title": "E.T. the Extra-Terrestrial", "status": "Watched" },
-  { "title": "Back to the Future", "status": "Want to Watch" },
-  { "title": "Lilo & Stitch", "status": "Watched" },
-  { "title": "The Lego Movie", "status": "Want to Watch" },
-  { "title": "Zathura: A Space Adventure", "status": "Want to Watch" },
-  { "title": "Lightyear", "status": "Watched" },
-  { "title": "Spy Kids", "status": "Want to Watch" },
-  { "title": "Meet the Robinsons", "status": "Watched" },
-  { "title": "The Adventures of Tintin", "status": "Want to Watch" },
-  { "title": "Next Gen", "status": "Watched" },
-  { "title": "Space Sweepers", "status": "Want to Watch" },
-  { "title": "Finch", "status": "Watched" },
-  { "title": "Project Power", "status": "Want to Watch" },
-  { "title": "The Adam Project", "status": "Watched" },
-  { "title": "Finding Nemo", "status": "Watched" },
-  { "title": "Avatar", "status": "Want to Watch" },
-  { "title": "The Wild Robot", "status": "Want to Watch" },
-  { "title": "Wonder", "status": "Watched" },
-  { "title": "The Sixth Sense", "status": "Watched" },
-  { "title": "Saint Vincent", "status": "Want to Watch" },
-  { "title": "Karwaan", "status": "Watched" },
-  { "title": "Flow", "status": "Want to Watch" },
-  { "title": "Million Dollar Baby", "status": "Watched" },
-  { "title": "Ray", "status": "Want to Watch" },
-  { "title": "Masaan", "status": "Watched" },
-  { "title": "The Longest Ride", "status": "Want to Watch" },
-  { "title": "Maleficent", "status": "Watched" },
-  { "title": "Mother's Instinct", "status": "Want to Watch" },
-  { "title": "A Man Called Otto", "status": "Watched" },
-  { "title": "Sir", "status": "Want to Watch" },
-  { "title": "The Notebook", "status": "Watched" },
-  { "title": "Raincoat", "status": "Want to Watch" }
+  {
+    "title": "Inception",
+    "status": "Watched",
+    "genre": ["Action", "Sci-Fi", "Thriller"],
+    "rating": 8.8
+  },
+  {
+    "title": "Interstellar",
+    "status": "Want to Watch",
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rating": 8.6
+  },
+  {
+    "title": "The Matrix",
+    "status": "Watched",
+    "genre": ["Action", "Sci-Fi"],
+    "rating": 8.7
+  },
+  {
+    "title": "The Social Network",
+    "status": "Watched",
+    "genre": ["Biography", "Drama"],
+    "rating": 7.7
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "status": "Want to Watch",
+    "genre": ["Action", "Adventure", "Comedy"],
+    "rating": 7.8
+  },
+  {
+    "title": "Parasite",
+    "status": "Watched",
+    "genre": ["Drama", "Thriller"],
+    "rating": 8.5
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "status": "Want to Watch",
+    "genre": ["Adventure", "Comedy", "Crime"],
+    "rating": 8.1
+  },
+  {
+    "title": "Whiplash",
+    "status": "Watched",
+    "genre": ["Drama", "Music"],
+    "rating": 8.5
+  },
+  {
+    "title": "Arrival",
+    "status": "Want to Watch",
+    "genre": ["Drama", "Mystery", "Sci-Fi"],
+    "rating": 7.9
+  },
+  {
+    "title": "The Dark Knight",
+    "status": "Watched",
+    "genre": ["Action", "Crime", "Drama"],
+    "rating": 9.0
+  },
+  {
+    "title": "Her",
+    "status": "Want to Watch",
+    "genre": ["Drama", "Romance", "Sci-Fi"],
+    "rating": 8.0
+  },
+  {
+    "title": "Knives Out",
+    "status": "Watched",
+    "genre": ["Comedy", "Crime", "Drama"],
+    "rating": 7.9
+  },
+  {
+    "title": "WALL·E",
+    "status": "Watched",
+    "genre": ["Animation", "Adventure", "Family"],
+    "rating": 8.4
+  },
+  {
+    "title": "Big Hero 6",
+    "status": "Want to Watch",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 7.8
+  },
+  {
+    "title": "The Mitchells vs. The Machines",
+    "status": "Watched",
+    "genre": ["Animation", "Adventure", "Comedy"],
+    "rating": 7.6
+  },
+  {
+    "title": "E.T. the Extra-Terrestrial",
+    "status": "Watched",
+    "genre": ["Family", "Sci-Fi"],
+    "rating": 7.9
+  },
+  {
+    "title": "Back to the Future",
+    "status": "Want to Watch",
+    "genre": ["Adventure", "Comedy", "Sci-Fi"],
+    "rating": 8.5
+  },
+  {
+    "title": "Lilo & Stitch",
+    "status": "Watched",
+    "genre": ["Animation", "Adventure", "Comedy"],
+    "rating": 7.3
+  },
+  {
+    "title": "The Lego Movie",
+    "status": "Want to Watch",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 7.7
+  },
+  {
+    "title": "Zathura: A Space Adventure",
+    "status": "Want to Watch",
+    "genre": ["Action", "Adventure", "Comedy"],
+    "rating": 6.2
+  }
+
 ]

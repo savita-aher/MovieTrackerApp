@@ -1,6 +1,7 @@
 # Movie Tracker App
 
-A simple web application built with Node.js and Express.js that allows users to track movies they want to watch, are currently watching, or have already watched. This project was created as part of a Node and Express assessment to demonstrate RESTful API design, middleware usage, and dynamic view rendering with EJS.
+A simple web application built with Node.js and Express.js that allows users to track movies they want to watch, are currently watching, or have already watched. This project is created as part of a Node and Express assessment to demonstrate RESTful API design, middleware usage, and dynamic view rendering with templating engines EJS .
+
 
 
 ## Features

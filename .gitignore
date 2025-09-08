@@ -1,4 +1,3 @@
 # Node modules
 node_modules/
-# local data file
-data/movies.json
+
