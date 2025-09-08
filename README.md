@@ -24,3 +24,9 @@ This project includes a `.gitignore` file to prevent unnecessary or sensitive fi
 node_modules/: External packages installed via npm
 data/movies.json 
 
+## Main Browser URLs
+
+http://localhost:3000/              - Home (root route)
+http://localhost:3000/add-movie     - Add Movie Form
+http://localhost:3000/movies        - View Movie List (Table)
+http://localhost:3000/api/movies    - Movies API (JSON)
