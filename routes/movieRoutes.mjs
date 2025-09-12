@@ -35,9 +35,8 @@ router.post("/", (req, res) => {
     movies.push(newMovie);
     writeMovies(movies);
     res.redirect("/success");
-  } else {
-    res.status(400).json({ error: "Missing required fields" });
-  }
+  } 
+ 
 });
 
 // @route   GET /api/movies/:id
@@ -63,7 +62,7 @@ router.patch("/:id", (req, res) => {
 // @route   DELETE /api/movies/:id
 router.delete("/:id", (req, res) => {
   const movies = readMovies();
-  const filtered = movies.filter((m) => m.id !== req.params.id);
+  const filtered = movies.filter((m) => String(m.id) !== req.params.id);
 
   if (filtered.length === movies.length) {
     res.status(404).json({ error: "Movie not found" });

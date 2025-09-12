@@ -18,6 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public")); // Serve CSS and assets
 
+
 // Logging Middleware
 app.use((req, res, next) => {
   const time = new Date();

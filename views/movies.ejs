@@ -4,41 +4,38 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title><%= title %></title>
-  <link rel="stylesheet" href="/public/styles.css" />
+  <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <h1><%= title %></h1>
-
-  <table>
-    <thead>
+<div class="table-wrapper">
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Genre</th>
+      <th>Description</th>
+      <th>Rating</th>
+      <th>Remove</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% movies.forEach(movie => { %>
       <tr>
-        <th>Title</th>
-        <th>Genre</th>
-        <th>Description</th>
-        <th>Rating</th>
-        <th>Remove</th>
+        <td><%= movie.title %></td>
+        <td><%= Array.isArray(movie.genre) ? movie.genre.join(", ") : movie.genre %></td>
+        <td><%= movie.description %></td>
+        <td><%= movie.rating %></td>
+        <td>
+          <button class="delete-btn" data-id="<%= movie.id %>">🗑️</button>
+        </td>
       </tr>
-    </thead>
-    <tbody>
-      <% movies.forEach(movie => { %>
-        <tr>
-          <td><%= movie.title %></td>
-          <td>
-            <% if (Array.isArray(movie.genre)) { %>
-              <%= movie.genre.join(", ") %>
-            <% } else { %>
-              <%= movie.genre %>
-            <% } %>
-          </td>
-          <td><%= movie.description %></td>
-          <td><%= movie.rating %></td>
-          <td>
-            <button class="delete-btn" data-id="<%= movie.id %>">🗑️</button>
-          </td>
-        </tr>
-      <% }) %>
-    </tbody>
-  </table>
+    <% }) %>
+  </tbody>
+</table>
+
+  </div>
+
 
   <script>
     document.querySelectorAll(".delete-btn").forEach(button => {
