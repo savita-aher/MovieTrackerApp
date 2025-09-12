@@ -15,10 +15,10 @@ const readMovies = () => JSON.parse(fs.readFileSync(dataPath, "utf-8"));
 const writeMovies = (movies) =>
   fs.writeFileSync(dataPath, JSON.stringify(movies, null, 2));
 
-// @route   GET /api/movies
-router.get("/", (req, res) => {
-  res.json(readMovies());
+router.get("/add-movie", (req, res) => {
+  res.render("movieForm", { title: "Add a New Movie" });
 });
+
 
 // @route   POST /api/movies
 router.post("/", (req, res) => {

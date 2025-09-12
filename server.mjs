@@ -33,12 +33,17 @@ ${time.toLocaleTimeString()}: Received a ${req.method} request to ${req.url}.`);
 
 // API Routes
 app.use("/api/movies", movieRoutes);
-app.use("/api/users", userRoutes);
+app.use("/", userRoutes);
 
-// View Routes
+// Protected Add Movie Route
 app.get("/add-movie", (req, res) => {
-  res.render("movieForm", { title: "Add a New Movie" });
+  if (req.query.auth === "true") {
+    res.render("movieForm", { title: "Add a New Movie" });
+  } else {
+    res.redirect("/");
+  }
 });
+
 
 app.get("/movies", async (req, res) => {
   try {
@@ -52,10 +57,21 @@ app.get("/movies", async (req, res) => {
   }
 });
 
-// Root Route
+// Root Route → Login Page
 app.get("/", (req, res) => {
-  res.send("🎬 Welcome to the Movie Tracker API");
+  res.render("login", { error: null });
 });
+
+// Login Handler → Redirect with Auth Flag
+app.post("/login", (req, res) => {
+  const { username, password } = req.body;
+  if (username === "admin" && password === "1234") {
+    res.redirect("/add-movie?auth=true");
+  } else {
+    res.render("login", { error: "Invalid credentials" });
+  }
+});
+
 
 // 404 Handler
 app.use((req, res) => {
