@@ -1,233 +1,58 @@
 [
   {
-    "title": "Inception",
-    "status": "Watched",
-    "genre": [
-      "Action",
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "rating": 8.8
+    "id": "1757719263861",
+    "title": " The Twits",
+    "genre": "Animation",
+    "description": "Netflix’s animated take on Roald Dahl’s classic tale about a nasty couple who play tricks on each other—perfect for fans of quirky humor",
+    "rating": "8"
   },
   {
-    "title": "Interstellar",
-    "status": "Want to Watch",
-    "genre": [
-      "Adventure",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "rating": 8.6
+    "id": "1757719429451",
+    "title": " Avatar: Fire and Ash",
+    "genre": "Fantasy/Sci-Fi",
+    "description": "The next epic in James Cameron’s Avatar series, expected to expand the lore of Pandora and introduce new elemental themes.\r\n\r\n",
+    "rating": "8"
   },
   {
-    "title": "The Matrix",
-    "status": "Watched",
-    "genre": [
-      "Action",
-      "Sci-Fi"
-    ],
-    "rating": 8.7
+    "id": "1757719515348",
+    "title": "Sinners",
+    "genre": "Horror",
+    "description": "Twin brothers open a juke joint in 1932 Mississippi, only to face a vampiric evil.",
+    "rating": "9"
   },
   {
-    "title": "The Social Network",
-    "status": "Watched",
-    "genre": [
-      "Biography",
-      "Drama"
-    ],
-    "rating": 7.7
+    "id": "1757719578624",
+    "title": " Lilo & Stitch",
+    "genre": "Animation",
+    "description": "An alien fugitive finds family and love with a spirited Hawaiian girl and her sister",
+    "rating": "7.7"
   },
   {
-    "title": "Everything Everywhere All at Once",
-    "status": "Want to Watch",
-    "genre": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "rating": 7.8
+    "id": "1757719619533",
+    "title": " Back to the Future",
+    "genre": "sci-fi",
+    "description": "A teenager travels through time in a DeLorean, altering the past and racing to fix the future.",
+    "rating": "8.8"
   },
   {
-    "title": "Parasite",
-    "status": "Watched",
-    "genre": [
-      "Drama",
-      "Thriller"
-    ],
-    "rating": 8.5
-  },
-  {
-    "title": "The Grand Budapest Hotel",
-    "status": "Want to Watch",
-    "genre": [
-      "Adventure",
-      "Comedy",
-      "Crime"
-    ],
-    "rating": 8.1
-  },
-  {
-    "title": "Whiplash",
-    "status": "Watched",
-    "genre": [
-      "Drama",
-      "Music"
-    ],
-    "rating": 8.5
-  },
-  {
-    "title": "Arrival",
-    "status": "Want to Watch",
-    "genre": [
-      "Drama",
-      "Mystery",
-      "Sci-Fi"
-    ],
-    "rating": 7.9
-  },
-  {
+    "id": "1757719687593",
     "title": "The Dark Knight",
-    "status": "Watched",
-    "genre": [
-      "Action",
-      "Crime",
-      "Drama"
-    ],
-    "rating": 9
+    "genre": "crime",
+    "description": "Batman faces his greatest challenge yet—the Joker—in a gritty battle for Gotham’s soul",
+    "rating": "9"
   },
   {
-    "title": "Her",
-    "status": "Want to Watch",
-    "genre": [
-      "Drama",
-      "Romance",
-      "Sci-Fi"
-    ],
-    "rating": 8
+    "id": "1757719730785",
+    "title": "Arrival",
+    "genre": "Mystery",
+    "description": "When aliens arrive, a linguist must decode their language to unlock a message that could change time.",
+    "rating": "7.9"
   },
   {
-    "title": "Knives Out",
-    "status": "Watched",
-    "genre": [
-      "Comedy",
-      "Crime",
-      "Drama"
-    ],
-    "rating": 7.9
-  },
-  {
-    "title": "WALL·E",
-    "status": "Watched",
-    "genre": [
-      "Animation",
-      "Adventure",
-      "Family"
-    ],
-    "rating": 8.4
-  },
-  {
-    "title": "Big Hero 6",
-    "status": "Want to Watch",
-    "genre": [
-      "Animation",
-      "Action",
-      "Adventure"
-    ],
-    "rating": 7.8
-  },
-  {
-    "title": "The Mitchells vs. The Machines",
-    "status": "Watched",
-    "genre": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "rating": 7.6
-  },
-  {
-    "title": "E.T. the Extra-Terrestrial",
-    "status": "Watched",
-    "genre": [
-      "Family",
-      "Sci-Fi"
-    ],
-    "rating": 7.9
-  },
-  {
-    "title": "Back to the Future",
-    "status": "Want to Watch",
-    "genre": [
-      "Adventure",
-      "Comedy",
-      "Sci-Fi"
-    ],
-    "rating": 8.5
-  },
-  {
-    "title": "Lilo & Stitch",
-    "status": "Watched",
-    "genre": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "rating": 7.3
-  },
-  {
-    "title": "The Lego Movie",
-    "status": "Want to Watch",
-    "genre": [
-      "Animation",
-      "Action",
-      "Adventure"
-    ],
-    "rating": 7.7
-  },
-  {
-    "title": "Zathura: A Space Adventure",
-    "status": "Want to Watch",
-    "genre": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "rating": 6.2
-  },
-  {
-    "id": "1757711869103",
-    "title": "ffdsfsdf",
-    "genre": "dsfsdfds",
-    "description": "fsdfsfs"
-  },
-  {
-    "id": "1757711893603",
-    "title": "erewrewwe",
-    "genre": "sdsfsdfsdf",
-    "description": "sfddsdfsdf"
-  },
-  {
-    "id": "1757712408639",
-    "title": "sasas",
-    "genre": "sasasasa",
-    "description": "asasasas"
-  },
-  {
-    "id": "1757713174683",
-    "title": "wewewewe",
-    "genre": "wewweww",
-    "description": "wrewrwerwrwr"
-  },
-  {
-    "id": "1757713465589",
-    "title": "sdsfsff",
-    "genre": "sfsfsfs",
-    "description": "fsfsfs"
-  },
-  {
-    "id": "1757713532083",
-    "title": "dasdd",
-    "genre": "adsdasd",
-    "description": "adsdsdasd"
+    "id": "1757719782424",
+    "title": "Parasite",
+    "genre": "Thriller",
+    "description": "A gripping tale of class divide and deception, where two families collide in unexpected ways.",
+    "rating": "8.5"
   }
 ]

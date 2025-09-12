@@ -22,7 +22,7 @@ router.get("/add-movie", (req, res) => {
 
 // @route   POST /api/movies
 router.post("/", (req, res) => {
-  const { title, genre, description } = req.body;
+  const { title, genre, description, rating } = req.body;
 
   if (title && genre && description) {
     const movies = readMovies();
@@ -31,12 +31,15 @@ router.post("/", (req, res) => {
       title,
       genre,
       description,
+      rating
     };
     movies.push(newMovie);
     writeMovies(movies);
     res.redirect("/success");
   } 
- 
+  else {
+    res.status(400).json({ error: "Missing required fields" });
+  }
 });
 
 // @route   GET /api/movies/:id
