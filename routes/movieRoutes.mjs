@@ -48,19 +48,7 @@ router.get("/:id", (req, res) => {
   movie ? res.json(movie) : res.status(404).json({ error: "Movie not found" });
 });
 
-// @route   PATCH /api/movies/:id
-router.patch("/:id", (req, res) => {
-  const movies = readMovies();
-  const index = movies.findIndex((m) => m.id === req.params.id);
 
-  if (index !== -1) {
-    movies[index] = { ...movies[index], ...req.body };
-    writeMovies(movies);
-    res.json(movies[index]);
-  } else {
-    res.status(404).json({ error: "Movie not found" });
-  }
-});
 
 // @route   DELETE /api/movies/:id
 router.delete("/:id", (req, res) => {
